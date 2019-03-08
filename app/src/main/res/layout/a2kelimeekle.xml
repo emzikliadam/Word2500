@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a2kelimeekle">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/eklerv"
+            android:layout_width="match_parent"
+            android:layout_height="482dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <android.support.v7.widget.Toolbar
+            android:backgroundTint="#bbdefb"
+            android:layout_marginTop="0dp"
+            android:id="@+id/ekletoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/eklefab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="49dp"
+            android:layout_marginEnd="17dp"
+            android:background="#e96ddc81"
+            android:clickable="true"
+            android:src="@drawable/add"
+            app:backgroundTint="@android:color/holo_blue_light" />
+    </RelativeLayout>
+
+</FrameLayout>
